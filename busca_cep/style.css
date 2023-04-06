@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+  }
+
+.area-login  {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: #cbd0f7;
+    margin-bottom: 10px;
+
+}
+
+.login {
+    background-color: #181920;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: #0d1117;
+    color: #cbd0f7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+
+input::placeholder {
+    color: #cbd0f7;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form [type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    background-color: #238636;
+    font-size: 20px;
+    color: #cbd0f7;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+form [type="submit"]:hover {
+    background-color: #2ea043;
+}
+
+p {
+    margin-top: 15px;
+    color: #cbd0f7;
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    color: #2f81f7;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+
+
+
+/* Style pagina de home*/
+
+ button {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #238636;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    height: 45px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #cbd0f7;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    background-color: #2ea043;
+}
+
+#endereco {
+    padding: 5px;
+    margin-top: 10px;
+    max-width: 390px;
+    font-family: 'Montserrat', sans-serif;
+    color: #cbd0f7;
+    
+    
+    
+}
